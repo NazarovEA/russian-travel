@@ -37,7 +37,7 @@
     max-width: 288px;
     max-height: 2724px;
     margin-bottom: 64px;
-    gap: 12px;
+    gap: 9px;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   }
 }

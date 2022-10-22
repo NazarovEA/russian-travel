@@ -20,7 +20,7 @@
 }
 
 /* 320 */
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 320px) {
   .places {
     width: 100%;
   }

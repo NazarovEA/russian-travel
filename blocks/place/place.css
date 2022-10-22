@@ -29,10 +29,10 @@
 @media screen and (max-width: 320px) {
   .place {
     display: flex;
+    margin: 0 auto 50px;
     max-width: 320px;
     max-height: 1042px;
     flex-direction: column;
-    margin: 0 auto;
     row-gap: 0;
   }
 }
