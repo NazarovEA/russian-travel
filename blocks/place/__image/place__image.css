@@ -4,6 +4,7 @@
   padding: 0;
   max-width: 460px;
   max-height: 460px;
+  width: 100%;
   object-fit: cover;
   display: block;
 }
@@ -21,6 +22,15 @@
     height: 340px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 32px;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .place__image {

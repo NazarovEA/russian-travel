@@ -25,6 +25,17 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .place {
+    display: flex;
+    margin: 0 auto 50px;
+    max-width: 320px;
+    max-height: 1042px;
+    flex-direction: column;
+    row-gap: 0;
+  }
+}
+
 /* 320 */
 @media screen and (max-width: 320px) {
   .place {
