@@ -48,8 +48,8 @@
 @media screen and (max-width: 640px) {
   .cover__background {
     justify-content: flex-start;
-    min-height: 200px;
-    }
+    min-height: 350px;
+  }
 }
 
 @media screen and (max-width: 320px) {
