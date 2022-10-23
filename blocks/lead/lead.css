@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .content__lead {
+  .lead {
     margin-bottom: 64px;
   }
 }

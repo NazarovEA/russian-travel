@@ -1,4 +1,6 @@
 .photo-grid__item {
+  object-fit: cover;
+  display: block;
   margin: 0;
   padding: 0;
   min-width: 284px;

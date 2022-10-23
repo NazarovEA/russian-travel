@@ -13,6 +13,7 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cover__background::before {
@@ -48,6 +49,5 @@
   .cover__background {
     justify-content: flex-start;
     min-height: 200px;
-    overflow: hidden;
     }
 }
