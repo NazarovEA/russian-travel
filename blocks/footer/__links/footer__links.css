@@ -6,9 +6,24 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 698px) {
   .footer__links {
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 16px;
+    flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 640px) {
+  .footer__links {
+    flex-direction: row;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 320px) { 
+  .footer__links { 
+    flex-direction: column; 
+    margin-bottom: 16px; 
+  } 
+} 

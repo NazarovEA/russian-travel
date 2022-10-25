@@ -12,6 +12,7 @@
     .photo-grid__element {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 14px;
+
     }
   }
   
